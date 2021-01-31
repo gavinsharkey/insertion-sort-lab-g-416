@@ -11,5 +11,13 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
+  const sorted = [];
+  let current;
   
+  while (array.length > 0) {
+    current = findMinAndRemove(array);
+    sorted.push(current);
+  }
+  
+  return sorted;
 }

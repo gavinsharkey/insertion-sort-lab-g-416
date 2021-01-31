@@ -11,9 +11,5 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
-
+  
 }
-
-let array = [1, 4, 7, 9]
-console.log(findMinAndRemove(array))
-console.log(array)

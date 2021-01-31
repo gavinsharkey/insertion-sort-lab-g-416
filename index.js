@@ -5,7 +5,7 @@ function findMinAndRemove(array){
   for (let i = 0; i < array.length; i++) {
     if (array[i] < array[minIndex]) {
       minIndex = i;
-      min = array[1];
+      min = array[i];
     }
   }
   
